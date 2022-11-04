@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Formulario</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-image: url(imag/fondoform.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1 style="color: rgb(253, 39, 39);">FORMULARIO</h1>
+  </div>
+  <h2>INFORMACIÓN</h2>
+
+  <form method="post" autocomplete="off">
+    <fieldset style="text-align: center;  border: 100% rgb(7, 211, 41)">
+      <legend style="color: rgb(27, 61, 255);">
+        <h3>Datos Pesonales</h3>
+      </legend>
+      <label for="fname">Nombre(s):</label><br>
+      <input style="text-align: center;" type="text" id="fname" name="fname"><br>
+      <label for="lname">Apellidos:</label><br>
+      <input style="text-align: center;" type="text" id="lname" name="lname"><br>
+      <label for="dir">Dirección</label><br>
+      <input style="text-align: center;" type="text" id="dir" name="dir"><br>
+      <label for="num">Número de telefono</label><br>
+      <input style="text-align: center;" type="tel" id="phone" name="phone" placeholder="987-654-3210"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required maxlength="12"><br>
+      <label for="email">Email</label><br>
+      <input type="email" id="email" name="email"><br><br>
+
+
+    </fieldset>
+  </form>
+
+</body>
+
+</html>
