@@ -1,11 +1,11 @@
 body{
     margin: auto;
-    font-family: 'Avenir', sans-serif; 
+    font-family: Cursive; 
     color: #33475b;
 }
 header{
     width: 100%;
-    background-color: rgb(20, 199, 154);
+    background-color: rgb(20, 193, 199);
 }
 .menu ul{
     margin: 0;
@@ -14,7 +14,7 @@ header{
     display: flex;
 }
 .menu li{
-    border-right: 1px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
 }
 .menu li:hover{
     background: rgba(0, 0, 0, 0.301);
